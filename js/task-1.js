@@ -3,9 +3,7 @@
 
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
 
-function getUserNames(users) {
-  return users.map(user => user.name);
-}
+const getUserNames = users => users.map(user => user.name);
 
 console.log(
   getUserNames([
